@@ -190,6 +190,25 @@ body {
     text-transform: uppercase;
     text-decoration: underline;
 }
+.block-cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 50%;
+}
+.block-cover::after {
+    content: " ";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: var(--clr-Primary);
+    animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-delay: 2s;
+}
         /* ====== MEDIA QUERIES ====== */
 
 @media screen and (max-width: 900px) {
