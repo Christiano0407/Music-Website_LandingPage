@@ -72,7 +72,7 @@ body {
     color: #ffffff;
     bottom: 8%;
     font-weight: bolder;
-    transform: rotate(-99deg);
+    transform: rotate(-90deg);
     left: 0%;
 }
 .buy {
@@ -80,7 +80,7 @@ body {
    color: var(--clr-white);
    bottom: 8%;
    font-weight: bolder;
-   transform: rotate(-99deg);
+   transform: rotate(-90deg);
    left: 0%;
 }
 .cover {
