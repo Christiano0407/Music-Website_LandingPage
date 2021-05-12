@@ -109,7 +109,25 @@ body {
     text-transform: uppercase;
     letter-spacing: .4rem;
 }
+ #name {
+     font-weight: bolder;
+ }
+ #artist {
+     font-size: 1rem;
+ }
+ .play .next ion-icon {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: var(--clr-white);
+     opacity: 0.6;
+     border-radius: 50%;
+     padding: 2rem;
+     border: 1px solid rgba(255, 255, 255, 03);
+ }
 
+ 
         /* ====== MEDIA QUERIES ====== */
 
 @media screen and (max-width: 900px) {
