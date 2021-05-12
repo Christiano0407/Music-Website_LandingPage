@@ -37,6 +37,7 @@ Creative Website Music and Landing Page
 - [EditorMD](https://pandao.github.io/editor.md/en.html)
 # CDN
 - [CDNjs](https://cdnjs.com/)
+- [Tiny-CDN](https://tinify.com/cdn)
 # NPM
 - [npmjs](https://www.npmjs.com/)
 
