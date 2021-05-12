@@ -127,7 +127,48 @@ body {
      border: 1px solid rgba(255, 255, 255, 03);
  }
 
- 
+ .about {
+     position: absolute;
+     top: 40%;
+     left: 25%;
+     transform: translate(-50%, -50%);
+ }
+ .about h1 {
+     font-weight: bolder;
+     color: #ffffff;
+     text-transform: uppercase;
+ }
+ .about p {
+     color: #ffffff;
+     text-transform: uppercase;
+     letter-spacing: .4rem;
+     font-size: 1rem;
+     cursor: pointer;
+ }
+ .about span:hover {
+     text-decoration: underline;
+ }
+
+ .media {
+     margin-top: 4rem;
+ }
+
+.media p {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.media ul {
+    position: absolute;
+    list-style: none;
+    left: -24px;
+}
+.media ul li {
+    display: inline-block;
+    padding-right: 2rem;
+    color: var(--clr-ComplementaryOne);
+}
+
         /* ====== MEDIA QUERIES ====== */
 
 @media screen and (max-width: 900px) {
