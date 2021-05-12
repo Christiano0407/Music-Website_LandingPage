@@ -1,8 +1,8 @@
 :root {
-    --clr-Primary: #789EBF; 
-    --clr-Secondary: #9469BF; 
-    --clr-ComplementaryOne: #56308C; 
-    --clr-ComplementaryTwo: #030140
+    --clr-Primary: #1B0273; 
+    --clr-Secondary: #3D2473; 
+    --clr-ComplementaryOne: #6141A6; 
+    --clr-ComplementaryTwo: #352559; 
 
     --clr-white: #ffffff; 
     --clr-black: #000000; 
@@ -44,7 +44,7 @@ body {
     height: 100vh;
 }
 .left-col {
-    background: var(--clr-Primary);
+    background: var(--clr-Secondary);
 }
 .right-col {
     left: 50%;
@@ -53,14 +53,14 @@ body {
     position: absolute;
     width: 100%;
     height: 50vh;
-    background: var(--clr-Secondary);
+    background: var(--clr-Primary);
     opacity: 0;
     animation: appear-text 0.0001s linear forwards;
     animation-delay: 3s;
 }
 
 .logo {
-    color: #ffffff);
+    color: #ffffff;
     position: fixed;
     margin: 1rem;
     font-weight: bold;
@@ -70,6 +70,55 @@ body {
 .year {
     position: absolute;
     color: #ffffff;
+    bottom: 8%;
+    font-weight: bolder;
+    transform: rotate(-99deg);
+    left: 0%;
+}
+.buy {
+   color: var(--clr-ComplementaryOne);
+   color: var(--clr-white);
+   bottom: 8%;
+   font-weight: bolder;
+   transform: rotate(-99deg);
+   left: 0%;
+}
+.cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 50%;
+    background-image: url(../assets/img/tani-olorunyomi-jO6467xTRnA-unsplash.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0; 
+    animation: appear-text 0.0001s linear forwards;
+    animation-delay: 0.6s;
+
+}
+.data {
+    position: absolute;
+    top: 36%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: var(--clr-ComplementaryTwo);
+    text-transform: uppercase;
+    letter-spacing: .4rem;
 }
 
         /* ====== MEDIA QUERIES ====== */
+
+@media screen and (max-width: 900px) {
+    .left-col {
+        width: 100%;
+    }
+    .right-col {
+        top: 100%;
+        left: 0%;
+        width: 100%;
+    }
+}
