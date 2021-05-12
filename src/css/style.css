@@ -1,3 +1,17 @@
+:root {
+    --clr-Primary: #789EBF; 
+    --clr-Secondary: #9469BF; 
+    --clr-ComplementaryOne: #56308C; 
+    --clr-ComplementaryTwo: #030140
+
+    --clr-white: #ffffff; 
+    --clr-black: #000000; 
+
+    --Font-size-small: 1.2rem; 
+    --font-size-medium: 1.5rem; 
+    --font-size-tall: 1.8rem; 
+    --font-size-Title: 2.4rem; 
+}
 * {
     box-sizing: border-box; 
     margin: 0; 
@@ -24,3 +38,38 @@ body {
     width: 100%;
     height: 100%;
 }
+.left-col, .right-col {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+}
+.left-col {
+    background: var(--clr-Primary);
+}
+.right-col {
+    left: 50%;
+}
+.upper {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background: var(--clr-Secondary);
+    opacity: 0;
+    animation: appear-text 0.0001s linear forwards;
+    animation-delay: 3s;
+}
+
+.logo {
+    color: #ffffff);
+    position: fixed;
+    margin: 1rem;
+    font-weight: bold;
+    z-index: 1;
+    font-size: var(--font-size-Title);
+}
+.year {
+    position: absolute;
+    color: #ffffff;
+}
+
+        /* ====== MEDIA QUERIES ====== */

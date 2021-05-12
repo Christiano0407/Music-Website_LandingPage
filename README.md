@@ -7,7 +7,7 @@ Creative Website Music and Landing Page
 - [Codegrid](https://www.youtube.com/channel/UC7pVho4O31FyfQsZdXWejEw)
 - [Codegrid-Youtube](https://github.com/codegridweb)
 
-# Inspiration
+# Inspiration Websites
 - [Awwards](https://www.awwwards.com/)
 # Font
 - [Adobe-Fonts](https://fonts.adobe.com/)
@@ -25,6 +25,7 @@ Creative Website Music and Landing Page
 # Icons 
 - [FontAwesome](https://fontawesome.com/)
 - [Icons8](https://iconos8.es/)
+- [Ionics](https://ionic.io/ionicons)
 
 # MediaQueries
 - [MyDevice](https://www.mydevice.io/#compare-devices)
