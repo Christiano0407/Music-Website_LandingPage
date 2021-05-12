@@ -168,7 +168,28 @@ body {
     padding-right: 2rem;
     color: var(--clr-ComplementaryOne);
 }
-
+.next {
+    position: absolute;
+    top: 24%;
+    left: 16%;
+}
+.data2 {
+    position: absolute;
+    top: 12%;
+    left: 28%;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+.more {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: var(--font-size-medium);
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
         /* ====== MEDIA QUERIES ====== */
 
 @media screen and (max-width: 900px) {
