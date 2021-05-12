@@ -96,6 +96,7 @@ body {
     margin: 1.4em;
     font-weight: bolder;
     z-index: 1;
+    font-size: 1.5rem;
 }
 
 .year {
@@ -109,7 +110,7 @@ body {
 }
 
 .buy {
-    color: var(--clr-ComplementaryTwo);
+    color: var(--clr-white);
     text-transform: uppercase;
     font-family: Poppins;
     text-decoration: underline;
@@ -117,6 +118,8 @@ body {
     right: 0%;
     top: -2.6%;
     margin: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .cover {
@@ -133,6 +136,7 @@ body {
     animation: appear-text 0.0001s linear forwards;
     animation-delay: 2.6s;
     border-radius: 1rem;
+    /* box-shadow: 2px 15px 35px 5px #000000; */
 }
 
 .data {
@@ -140,7 +144,7 @@ body {
     top: 36%;
     left: 33%;
     transform: translate(-50%, -50%);
-    color: var(--clr-ComplementaryTwo);
+    color: var(--clr-white);
     font-family: Poppins;
     text-transform: uppercase;
     letter-spacing: 4px;
