@@ -45,3 +45,51 @@ TweenMax.from(".album-name2", 2, {
     opacity: 0, 
     ease: Expo.easeInOut
 })
+TweenMax.from(".album-artist2", 2,  {
+    delay: 3.4, 
+    y: 20, 
+    opacity: 0, 
+    ease: Expo.easeInOut
+} )
+TweenMax.from(".album-genre2", 2, {
+    delay: 3.6, 
+    y: 20, 
+    opacity: 0, 
+    ease: Expo.easeInOut
+})
+TweenMax.from(".media p", 2, {
+    delay: 3.6, 
+    y: 20, 
+    opacity: 0, 
+    ease: Expo.easeInOut
+})
+TweenMax.staggerFrom(".media ul li", 2, {
+    delay: 3.8, 
+    opacity: 0, 
+    y: 0, 
+    ease: Expo.easeInOut
+})
+TweenMax.from(".album-name3", 2, {
+    delay: 4, 
+    y: 20, 
+    opacity: 0, 
+    ease: Expo.easeInOut
+})
+TweenMax.from(".album-artist3", 2, {
+    delay: 4.2, 
+    y: 20, 
+    opacity: 0, 
+    ease:Expo.easeInOut
+})
+TweenMax.from(".next", 2, {
+ delay: 4.4, 
+ y: 20, 
+ opacity: 0, 
+ ease: Expo.easeInOut
+})
+TweenMax.from(".more", 2, {
+    delay: 4.6, 
+    y : 20, 
+    opacity: 0, 
+    ease: Expo.easeInOut
+})

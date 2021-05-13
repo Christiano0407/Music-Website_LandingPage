@@ -245,7 +245,7 @@ body {
     top: 80%;
     left: 10%;
     font-size: 15px;
-    color: var(--clr-ComplementaryOne);
+    color: var(--clr-Secondary);
     text-transform: uppercase;
     font-family: Poppins;
     text-decoration: underline;
